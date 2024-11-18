@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box ;
-    font-family: DFkai-sb, sans-serif;
+    font-family: "myfont", DFkai-sb, sans-serif;
 }
 
 h1,h2,h3,h4{
@@ -233,4 +233,9 @@ section.two{
     header nav ul{
         flex-direction: column;
     }
+}
+
+@font-face{
+    font-family: "myfont";
+    src: url(./JasonHandwriting1.ttf);
 }
